@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Agency - Tab Plugin</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">DigitalAgency</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>We Build Modern Web Solutions</h1>
+    <p>Professional Web Development & UI/UX Design Services</p>
+</section>
+
+<section class="tabs tabs-container">
+
+    <div class="tab-nav" role="tablist">
+        <button role="tab" data-tab="home">Home</button>
+        <button role="tab" data-tab="about">About</button>
+        <button role="tab" data-tab="contact">Contact</button>
+    </div>
+
+    <div id="home" class="tab-content">
+        <h2>Welcome to Our Agency</h2>
+        <p>We create scalable, secure and high-performance web applications.</p>
+        <ul>
+            <li>✔ Responsive Design</li>
+            <li>✔ SEO Optimized</li>
+            <li>✔ Fast Performance</li>
+            <li>✔ Secure Architecture</li>
+        </ul>
+    </div>
+
+    <div id="about" class="tab-content">
+        <h2>About Our Company</h2>
+        <p>Founded in 2024, we have worked with 100+ global clients.</p>
+        <p>Our team includes expert developers, UI/UX designers and consultants.</p>
+    </div>
+
+    <div id="contact" class="tab-content">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 DigitalAgency | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
